@@ -48,4 +48,22 @@ p {
     border: 1px solid skyblue;
     color: skyblue;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+}
+/*************************************/
 
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+header {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.img-banner {
+    background: url(../img/banner.jpg) right/cover;
+}
