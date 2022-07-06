@@ -135,3 +135,38 @@ textarea {
     height: 180px;
 }
 
+/************** Contact ***************/
+
+footer {
+    padding: 70px 0 90px;
+    position: relative;
+}
+footer::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.084);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 33%;
+    min-width: 300px;
+}
+footer a {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+
