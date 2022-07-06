@@ -54,6 +54,11 @@ p {
     align-items: center;
     padding: 55px;
 }
+.section-1,
+.section-2,
+.contact {
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.08);
+}
 /*************************************/
 
 body {
@@ -65,5 +70,24 @@ header {
     grid-template-columns: 50% 50%;
 }
 .img-banner {
-    background: url(../img/banner.jpg) right/cover;
+    background: url(../img/banner.jpg) fixed right/cover;
 }
+/************** Section 1 ***************/
+.section-1 {
+    display: grid;
+    grid-template-columns: 37% 63%;
+    min-height: 400px;
+}
+.section-1 .img {
+    background: url(../img/img-left.jpg)  center/cover;
+}
+/************** Section 2 ***************/
+.section-2 {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    min-height: 400px;
+}
+.section-2 .img {
+    background: url(../img/img-right.jpg)  right/cover;
+}
+
